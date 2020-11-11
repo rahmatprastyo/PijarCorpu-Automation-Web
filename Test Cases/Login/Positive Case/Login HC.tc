@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Sebagai Human Capital 
+username : 2001 
+password : Password</description>
+   <name>Login HC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24a5494f-6488-4c2f-9be1-bbeb413f9bcb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Sebagai Management 
+username : 4001 
+password : Password</description>
+   <name>Login Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b40cc889-4de4-4dbf-8a6a-b4ca83c82c8a</testCaseGuid>
+</TestCaseEntity>
