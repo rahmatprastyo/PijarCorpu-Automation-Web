@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Failed,Chrome 86.0.4240.183,Gagal Login Learn Aja \r\n- Data Kosong \r\n- Username Salah \r\n- Password Salah,,2020-11-11 18:12:53,2020-11-11 18:13:22,28.682s,PASSED
+,,,,,,,
+Test Cases/Login/Negative Case/Login Data Kosong,Chrome 86.0.4240.183,"Login Dengan Data Kosong
+username : """"
+password : """"",,2020-11-11 18:12:54,2020-11-11 18:13:04,10.400s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.183,,,2020-11-11 18:12:54,2020-11-11 18:12:58,4.370s,PASSED
+"navigateToUrl(""http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login"")",Chrome 86.0.4240.183,,,2020-11-11 18:12:58,2020-11-11 18:12:59,0.832s,PASSED
+"setText(findTestObject(""Login/input_Login_username""), """")",Chrome 86.0.4240.183,,,2020-11-11 18:12:59,2020-11-11 18:13:00,0.735s,PASSED
+"setText(findTestObject(""Login/input_Login_password""), """")",Chrome 86.0.4240.183,,,2020-11-11 18:13:00,2020-11-11 18:13:01,0.661s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 86.0.4240.183,,,2020-11-11 18:13:01,2020-11-11 18:13:01,0.365s,PASSED
+delay(2),Chrome 86.0.4240.183,,,2020-11-11 18:13:01,2020-11-11 18:13:03,2.033s,PASSED
+"click(findTestObject(""Login/a_Dismiss""))",Chrome 86.0.4240.183,,,2020-11-11 18:13:03,2020-11-11 18:13:04,0.457s,PASSED
+closeBrowser(),Chrome 86.0.4240.183,,,2020-11-11 18:13:04,2020-11-11 18:13:04,0.616s,PASSED
+,,,,,,,
+Test Cases/Login/Negative Case/Login Username Tidak Ada Di Database,Chrome 86.0.4240.183,"Login Username Salah
+username : ""12345""
+password : ""Password""",,2020-11-11 18:13:04,2020-11-11 18:13:13,9.139s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.183,,,2020-11-11 18:13:04,2020-11-11 18:13:08,3.229s,PASSED
+"navigateToUrl(""http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login"")",Chrome 86.0.4240.183,,,2020-11-11 18:13:08,2020-11-11 18:13:08,0.677s,PASSED
+"setText(findTestObject(""Login/input_Login_username""), ""9000"")",Chrome 86.0.4240.183,,,2020-11-11 18:13:08,2020-11-11 18:13:09,0.878s,PASSED
+"setText(findTestObject(""Login/input_Login_password""), ""Password"")",Chrome 86.0.4240.183,,,2020-11-11 18:13:09,2020-11-11 18:13:10,0.762s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 86.0.4240.183,,,2020-11-11 18:13:10,2020-11-11 18:13:10,0.378s,PASSED
+delay(2),Chrome 86.0.4240.183,,,2020-11-11 18:13:10,2020-11-11 18:13:12,2.011s,PASSED
+"click(findTestObject(""Login/a_Dismiss""))",Chrome 86.0.4240.183,,,2020-11-11 18:13:12,2020-11-11 18:13:13,0.403s,PASSED
+closeBrowser(),Chrome 86.0.4240.183,,,2020-11-11 18:13:13,2020-11-11 18:13:13,0.606s,PASSED
+,,,,,,,
+Test Cases/Login/Negative Case/Login Password Tidak Sama Dengan Di Database,Chrome 86.0.4240.183,"Password Salah
+usename : ""2001""
+password : ""pass""",,2020-11-11 18:13:13,2020-11-11 18:13:22,8.872s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.183,,,2020-11-11 18:13:13,2020-11-11 18:13:17,3.286s,PASSED
+"navigateToUrl(""http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login"")",Chrome 86.0.4240.183,,,2020-11-11 18:13:17,2020-11-11 18:13:17,0.746s,PASSED
+"setText(findTestObject(""Login/input_Login_username""), ""3001"")",Chrome 86.0.4240.183,,,2020-11-11 18:13:17,2020-11-11 18:13:18,0.664s,PASSED
+"setText(findTestObject(""Login/input_Login_password""), ""pass"")",Chrome 86.0.4240.183,,,2020-11-11 18:13:18,2020-11-11 18:13:19,0.666s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 86.0.4240.183,,,2020-11-11 18:13:19,2020-11-11 18:13:19,0.366s,PASSED
+delay(2),Chrome 86.0.4240.183,,,2020-11-11 18:13:19,2020-11-11 18:13:21,2.012s,PASSED
+"click(findTestObject(""Login/a_Dismiss""))",Chrome 86.0.4240.183,,,2020-11-11 18:13:21,2020-11-11 18:13:22,0.369s,PASSED
+closeBrowser(),Chrome 86.0.4240.183,,,2020-11-11 18:13:22,2020-11-11 18:13:22,0.605s,PASSED

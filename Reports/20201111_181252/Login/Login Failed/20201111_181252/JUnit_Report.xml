@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Failed" time="33.367" tests="3" failures="0" errors="0">
+   <testsuite name="Login Failed" tests="3" failures="0" errors="0" time="33.367" timestamp="2020-11-11 18:12:53" hostname="ASUS - LAPTOP-0PGQ63H6" id="Test Suites/Login/Login Failed">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\PijarCorpu-Automation-Web\\Reports\\20201111_181252\\Login\\Login Failed\\20201111_181252"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\PijarCorpu-Automation-Web\\Reports\\20201111_181252\\Login\\Login Failed\\20201111_181252\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-0PGQ63H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 86.0.4240.183"/>
+         <property name="hostAddress" value="192.168.0.108"/>
+         <property name="sessionId" value="3a12daec88e0a104ebed25184d370349"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Negative Case/Login Data Kosong" time="10.4" classname="Test Cases/Login/Negative Case/Login Data Kosong" status="PASSED">
+         <system-out><![CDATA[2020-11-11 18:12:54 - [TEST_CASE][PASSED] - Test Cases/Login/Negative Case/Login Data Kosong: Test Cases/Login/Negative Case/Login Data Kosong
+
+2020-11-11 18:12:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-11-11 18:12:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-11 18:12:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-11 18:12:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-11-11 18:12:58 - [TEST_STEP][PASSED] - navigateToUrl("http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login"): Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-11 18:12:59 - [MESSAGE][PASSED] - Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-11 18:12:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Login_username"), ""): Text '' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-11 18:13:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-11 18:13:00 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Login_password"), ""): Text '' is set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-11 18:13:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-11 18:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-11 18:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-11 18:13:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-11-11 18:13:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-11-11 18:13:03 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Dismiss")): Object: 'Object Repository/Login/a_Dismiss' is clicked on
+
+2020-11-11 18:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Dismiss' is clicked on
+
+2020-11-11 18:13:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-11 18:13:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative Case/Login Username Tidak Ada Di Database" time="9.139" classname="Test Cases/Login/Negative Case/Login Username Tidak Ada Di Database" status="PASSED">
+         <system-out><![CDATA[2020-11-11 18:13:04 - [TEST_CASE][PASSED] - Test Cases/Login/Negative Case/Login Username Tidak Ada Di Database: Test Cases/Login/Negative Case/Login Username Tidak Ada Di Database
+
+2020-11-11 18:13:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-11-11 18:13:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-11 18:13:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-11 18:13:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-11-11 18:13:08 - [TEST_STEP][PASSED] - navigateToUrl("http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login"): Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-11 18:13:08 - [MESSAGE][PASSED] - Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-11 18:13:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Login_username"), "9000"): Text '9000' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-11 18:13:09 - [MESSAGE][PASSED] - Text '9000' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-11 18:13:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Login_password"), "Password"): Text 'Password' is set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-11 18:13:10 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-11 18:13:10 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-11 18:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-11 18:13:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-11-11 18:13:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-11-11 18:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Dismiss")): Object: 'Object Repository/Login/a_Dismiss' is clicked on
+
+2020-11-11 18:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Dismiss' is clicked on
+
+2020-11-11 18:13:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-11 18:13:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Negative Case/Login Password Tidak Sama Dengan Di Database" time="8.872" classname="Test Cases/Login/Negative Case/Login Password Tidak Sama Dengan Di Database" status="PASSED">
+         <system-out><![CDATA[2020-11-11 18:13:13 - [TEST_CASE][PASSED] - Test Cases/Login/Negative Case/Login Password Tidak Sama Dengan Di Database: Test Cases/Login/Negative Case/Login Password Tidak Sama Dengan Di Database
+
+2020-11-11 18:13:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-11-11 18:13:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-11 18:13:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-11 18:13:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-11-11 18:13:17 - [TEST_STEP][PASSED] - navigateToUrl("http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login"): Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-11 18:13:17 - [MESSAGE][PASSED] - Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-11 18:13:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Login_username"), "3001"): Text '3001' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-11 18:13:18 - [MESSAGE][PASSED] - Text '3001' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-11 18:13:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Login_password"), "pass"): Text 'pass' is set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-11 18:13:19 - [MESSAGE][PASSED] - Text 'pass' is set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-11 18:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-11 18:13:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-11 18:13:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-11-11 18:13:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-11-11 18:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Login/a_Dismiss")): Object: 'Object Repository/Login/a_Dismiss' is clicked on
+
+2020-11-11 18:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/a_Dismiss' is clicked on
+
+2020-11-11 18:13:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-11-11 18:13:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-11 18:12:53 - [TEST_SUITE][PASSED] - Login Failed: Test Cases/Login/Negative Case/Login Password Tidak Sama Dengan Di Database]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
