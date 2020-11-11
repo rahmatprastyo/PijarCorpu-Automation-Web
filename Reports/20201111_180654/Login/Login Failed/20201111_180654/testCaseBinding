@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Login/Negative Case/Login Data Kosong","testCaseId":"Test Cases/Login/Negative Case/Login Data Kosong"}
+{"testCaseName":"Test Cases/Login/Negative Case/Login Username Tidak Ada Di Database","testCaseId":"Test Cases/Login/Negative Case/Login Username Tidak Ada Di Database"}
+{"testCaseName":"Test Cases/Login/Negative Case/Login Password Tidak Sama Dengan Di Database","testCaseId":"Test Cases/Login/Negative Case/Login Password Tidak Sama Dengan Di Database"}
