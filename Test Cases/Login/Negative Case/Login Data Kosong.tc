@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Dengan Data Kosong
+username : &quot;&quot;
+password : &quot;&quot;</description>
+   <name>Login Data Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd7b01e1-47ae-4287-b26f-a49640765194</testCaseGuid>
+</TestCaseEntity>
