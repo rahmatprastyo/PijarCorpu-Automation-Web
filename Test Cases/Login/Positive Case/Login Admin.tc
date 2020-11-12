@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login Sebagai Admin 
+username : 1001 
+password : Password</description>
+   <name>Login Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>569a3e21-3e0a-49c3-802d-9cce3042c2d4</testCaseGuid>
+</TestCaseEntity>
