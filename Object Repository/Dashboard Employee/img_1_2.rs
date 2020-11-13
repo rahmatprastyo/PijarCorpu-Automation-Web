@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div/div/div/div[6]/div/img</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@alt = 'wallet' and @src = '/static/media/wallet.2aab0a48.svg']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
