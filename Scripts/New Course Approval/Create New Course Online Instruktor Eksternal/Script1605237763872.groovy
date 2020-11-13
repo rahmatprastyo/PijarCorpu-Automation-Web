@@ -16,13 +16,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login')
-
-WebUI.setText(findTestObject('Login/input_Login_username'), '1001')
-
-WebUI.setText(findTestObject('Login/input_Login_password'), 'Password')
-
-WebUI.click(findTestObject('Login/button_Login'))
-

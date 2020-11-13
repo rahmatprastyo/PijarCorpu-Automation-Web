@@ -16,13 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+'Login Sebagai Employee'
+WebUI.callTestCase(findTestCase('Login/Positive Case/Login Employee'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Login/input_Login_username'), '1001')
+'Click Course'
+WebUI.click(findTestObject('Dashboard Employee/div_Courses'))
 
-WebUI.setText(findTestObject('Login/input_Login_password'), 'Password')
-
-WebUI.click(findTestObject('Login/button_Login'))
+WebUI.click(findTestObject('Course Employee/button_Propose New Course'))
 

@@ -13,8 +13,12 @@
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div/div/div/div[7]/div/div[3]/div[2]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Courses' or . = 'Courses')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
