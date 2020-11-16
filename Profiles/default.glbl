@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Login Page</description>
+      <initValue>'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login'</initValue>
+      <name>BaseUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

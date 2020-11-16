@@ -15,7 +15,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-'Login Sebagai Admin'
-WebUI.callTestCase(findTestCase('Login/Positive Case/Login Admin'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login')
+
+WebUI.setText(findTestObject('null'), '4001')
+
+WebUI.setEncryptedText(findTestObject('null'), 'p4y+y39Ir5MSxNs1t5lTZQ==')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('Logout/button_logout'))
 

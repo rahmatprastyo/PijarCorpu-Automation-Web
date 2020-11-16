@@ -19,24 +19,24 @@
       <guid>01786051-bae3-4192-96a7-ae4932aad0bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Positive Case/Login Employee</testCaseId>
+      <testCaseId>Test Cases/Login/Positive Case/Make Sure User Employee Can Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1de38cd1-5fb6-43d1-9a53-bac7137232c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Positive Case/Login Management</testCaseId>
+      <testCaseId>Test Cases/Login/Positive Case/Make Sure User Management Can Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>79bd6747-7fd8-43d5-b54f-0ebafc0a69cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Positive Case/Login HC</testCaseId>
+      <testCaseId>Test Cases/Login/Positive Case/Make Sure User HC Can Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7f499cda-ab04-4157-9390-54012a3da9f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Positive Case/Login Admin</testCaseId>
+      <testCaseId>Test Cases/Login/Positive Case/Make Sure User Admin Can Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -18,11 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login')
+'Open Url Login Page'
+WebUI.navigateToUrl(GlobalVariable.BaseUrl)
 
+'Input Username = \'"3001"'
 WebUI.setText(findTestObject('Login/input_Login_username'), '3001')
 
-WebUI.setText(findTestObject('Login/input_Login_password'), 'Password')
+'Input Password = "Password"'
+WebUI.setEncryptedText(findTestObject('Login/input_Login_password'), 'p4y+y39Ir5MSxNs1t5lTZQ==')
 
+'Click Button Login'
 WebUI.click(findTestObject('Login/button_Login'))
+
+'Displays the User Employee dashboard page'
+WebUI.delay(2)
 

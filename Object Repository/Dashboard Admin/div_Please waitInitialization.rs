@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>div_Please waitInitialization</name>
    <tag></tag>
-   <elementGuidId>54249164-c2cc-445b-ab6a-ec3f5be46e9e</elementGuidId>
+   <elementGuidId>f097d35c-effb-48ed-87dc-998d51e823a1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.login-button.btn.btn-secondary</value>
+         <value>div.d-block.row > div > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div/form/div/div[5]/button</value>
+         <value>//div[@id='root']/div/div/div[2]/main/div/div/div/div[2]/div/div/div/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>login-button btn btn-secondary</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
+      <value>Please wait...Initialization...</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;container-auth-mobileview&quot;]/div[1]/div[@class=&quot;row-auth row&quot;]/div[@class=&quot;form-auth-wrapper col-12 col-sm-12 col-md-12 col-lg-12&quot;]/div[1]/form[1]/div[@class=&quot;login-form&quot;]/div[5]/button[@class=&quot;login-button btn btn-secondary&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;app bg-gray-main&quot;]/div[@class=&quot;min-height-65vh m-0 row&quot;]/div[@class=&quot;pl-0 pr-0 col-12 col-sm-12 col-md-9 col-lg-9&quot;]/main[1]/div[1]/div[@class=&quot;animated fadeIn container&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;pt-3 m-0 p-0 col&quot;]/div[@class=&quot;d-block&quot;]/div[@class=&quot;card-custom card&quot;]/div[@class=&quot;card-custom body gray card-body&quot;]/div[@class=&quot;d-block row&quot;]/div[1]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div/div/form/div/div[5]/button</value>
+      <value>//div[@id='root']/div/div/div[2]/main/div/div/div/div[2]/div/div/div/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History Course Proposal'])[1]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Course Proposal'])[1]/following::div[11]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//div[2]/div/div/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -24,7 +24,7 @@ WebUI.setText(findTestObject('Login/input_Login_username'), '3001')
 
 WebUI.setText(findTestObject('Login/input_Login_password'), 'pass')
 
-WebUI.click(findTestObject('Login/button_Login'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 

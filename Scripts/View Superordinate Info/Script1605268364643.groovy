@@ -16,15 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+'Login User Employee'
+WebUI.callTestCase(findTestCase('Login/Positive Case/Make Sure User Employee Can Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login')
+'User Employee View  "Manager :"'
+WebUI.verifyElementText(findTestObject('Dashboard Employee/View Superordinate Info/p'), 'Manager :')
 
-WebUI.setText(findTestObject('Login/input_Login_username'), '4001')
-
-WebUI.setText(findTestObject('Login/input_Login_password'), 'Password')
-
-WebUI.click(findTestObject('Login/button_Login'))
-
-WebUI.closeBrowser()
+'User Employee View Name Manager "ADMINTEST_2"'
+WebUI.verifyElementText(findTestObject('Dashboard Employee/View Superordinate Info/span'), 'ADMINTEST_2')
 

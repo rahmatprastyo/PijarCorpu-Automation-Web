@@ -20,15 +20,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login')
 
-WebUI.setText(findTestObject('Login/input_Login_username'), '9000')
+WebUI.setText(findTestObject('Login/input_Login_username'), '2001')
 
 WebUI.setText(findTestObject('Login/input_Login_password'), 'Password')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Login/button_Login'))
 
 WebUI.delay(2)
-
-WebUI.click(findTestObject('Login/a_Dismiss'))
-
-WebUI.closeBrowser()
 
