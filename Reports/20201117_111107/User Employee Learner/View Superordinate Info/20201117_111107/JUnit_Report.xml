@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View Superordinate Info" time="26.44" tests="2" failures="0" errors="0">
+   <testsuite name="View Superordinate Info" tests="2" failures="0" errors="0" time="26.44" timestamp="2020-11-17 11:11:09" hostname="ASUS - LAPTOP-0PGQ63H6" id="Test Suites/User Employee Learner/View Superordinate Info">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\PijarCorpu-Automation-Web\\Reports\\20201117_111107\\User Employee Learner\\View Superordinate Info\\20201117_111107"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\PijarCorpu-Automation-Web\\Reports\\20201117_111107\\User Employee Learner\\View Superordinate Info\\20201117_111107\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-0PGQ63H6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 86.0.4240.198"/>
+         <property name="hostAddress" value="192.168.0.115"/>
+         <property name="sessionId" value="7a23d1dfd247831ae254c36c790fd90d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login" time="10.886" classname="Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login" status="PASSED">
+         <system-out><![CDATA[2020-11-17 11:11:09 - [TEST_CASE][PASSED] - Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login: Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login
+
+2020-11-17 11:11:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-11-17 11:11:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-17 11:11:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-17 11:11:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-11-17 11:11:15 - [TEST_STEP][PASSED] - navigateToUrl(BaseUrl): Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-17 11:11:16 - [MESSAGE][PASSED] - Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-17 11:11:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Login_username"), "3001"): Text '3001' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-17 11:11:17 - [MESSAGE][PASSED] - Text '3001' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-17 11:11:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Login_password"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-17 11:11:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-17 11:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-17 11:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-17 11:11:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-11-17 11:11:20 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Employee Learner Page/View Superordinate Info" time="9.393" classname="Test Cases/User Employee Learner Page/View Superordinate Info" status="PASSED">
+         <system-out><![CDATA[2020-11-17 11:11:20 - [TEST_CASE][PASSED] - Test Cases/User Employee Learner Page/View Superordinate Info: Test Cases/User Employee Learner Page/View Superordinate Info
+
+2020-11-17 11:11:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Positive Case/Make Sure User Employee Learner Can Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login' successfully
+
+2020-11-17 11:11:21 - [TEST_CASE][PASSED] - Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login: Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login
+
+2020-11-17 11:11:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-11-17 11:11:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-11-17 11:11:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-11-17 11:11:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-17 11:11:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-11-17 11:11:25 - [TEST_STEP][PASSED] - navigateToUrl(BaseUrl): Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-17 11:11:25 - [MESSAGE][PASSED] - Navigate to 'http://learn-aja-frontend-dev.vsan-apps.playcourt.id/#/login' successfully
+
+2020-11-17 11:11:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_Login_username"), "3001"): Text '3001' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-17 11:11:26 - [MESSAGE][PASSED] - Text '3001' is set on object 'Object Repository/Login/input_Login_username'
+
+2020-11-17 11:11:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/input_Login_password"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-17 11:11:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Login_password'
+
+2020-11-17 11:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-17 11:11:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+2020-11-17 11:11:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-11-17 11:11:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-11-17 11:11:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login' successfully
+
+2020-11-17 11:11:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dashboard Employee/View Superordinate Info/p"), "Manager :"): Actual text and expected text of test object 'Object Repository/Dashboard Employee/View Superordinate Info/p' are matched.
+
+2020-11-17 11:11:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard Employee/View Superordinate Info/p' are matched.
+
+2020-11-17 11:11:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dashboard Employee/View Superordinate Info/span"), "ADMINTEST_2"): Actual text and expected text of test object 'Object Repository/Dashboard Employee/View Superordinate Info/span' are matched.
+
+2020-11-17 11:11:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard Employee/View Superordinate Info/span' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-17 11:11:09 - [TEST_SUITE][PASSED] - View Superordinate Info: Test Cases/User Employee Learner Page/View Superordinate Info]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

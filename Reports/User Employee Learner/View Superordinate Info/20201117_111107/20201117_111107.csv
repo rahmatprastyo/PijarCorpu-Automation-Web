@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Superordinate Info,Chrome 86.0.4240.198,,,2020-11-17 11:11:09,2020-11-17 11:11:29,20.598s,PASSED
+,,,,,,,
+Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login,Chrome 86.0.4240.198,Login User Employee Learner,,2020-11-17 11:11:09,2020-11-17 11:11:20,10.886s,PASSED
+"openBrowser("""")",Chrome 86.0.4240.198,,,2020-11-17 11:11:10,2020-11-17 11:11:15,4.966s,PASSED
+navigateToUrl(BaseUrl),Chrome 86.0.4240.198,Open Url Login Page,,2020-11-17 11:11:15,2020-11-17 11:11:16,1.839s,PASSED
+"setText(findTestObject(""Login/input_Login_username""), ""3001"")",Chrome 86.0.4240.198,"Input Username = '""3001""",,2020-11-17 11:11:16,2020-11-17 11:11:17,0.761s,PASSED
+"setEncryptedText(findTestObject(""Login/input_Login_password""), ""p4y+y39Ir5MSxNs1t5lTZQ=="")",Chrome 86.0.4240.198,"Input Password = ""Password""",,2020-11-17 11:11:17,2020-11-17 11:11:18,0.523s,PASSED
+"click(findTestObject(""Login/button_Login""))",Chrome 86.0.4240.198,Click Button Login,,2020-11-17 11:11:18,2020-11-17 11:11:18,0.365s,PASSED
+delay(2),Chrome 86.0.4240.198,Displays the User Employee dashboard page,,2020-11-17 11:11:18,2020-11-17 11:11:20,2.048s,PASSED
+,,,,,,,
+Test Cases/User Employee Learner Page/View Superordinate Info,Chrome 86.0.4240.198,"View Superordinate Info
+(User View Name Manager / Atasan)",,2020-11-17 11:11:20,2020-11-17 11:11:29,9.393s,PASSED
+"callTestCase(findTestCase(""Login/Positive Case/Make Sure User Employee Learner Can Login""), [:], STOP_ON_FAILURE)",Chrome 86.0.4240.198,Login User Employee,,2020-11-17 11:11:20,2020-11-17 11:11:29,8.252s,PASSED
+"verifyElementText(findTestObject(""Dashboard Employee/View Superordinate Info/p""), ""Manager :"")",Chrome 86.0.4240.198,"User Employee View  ""Manager :""",,2020-11-17 11:11:29,2020-11-17 11:11:29,0.374s,PASSED
+"verifyElementText(findTestObject(""Dashboard Employee/View Superordinate Info/span""), ""ADMINTEST_2"")",Chrome 86.0.4240.198,"User Employee View Name Manager ""ADMINTEST_2""",,2020-11-17 11:11:29,2020-11-17 11:11:29,0.421s,PASSED
