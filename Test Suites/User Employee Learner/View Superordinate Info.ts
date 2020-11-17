@@ -15,12 +15,12 @@
       <guid>036fb090-f4f5-4ea4-b1ce-ee55b290b9bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Positive Case/Make Sure User Employee Can Login</testCaseId>
+      <testCaseId>Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9a9c0a71-1421-4239-9141-cb5ab65d2099</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/View Superordinate Info</testCaseId>
+      <testCaseId>Test Cases/User Employee Learner Page/View Superordinate Info</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

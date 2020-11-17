@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Login Sebagai Employee
-username : 3001
-password : Password</description>
-   <name>Make Sure User Employee Can Login</name>
+   <description>Login User Employee Learner</description>
+   <name>Make Sure User Employee Learner Can Login</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>6e7a4f58-a079-4c00-9bd0-9fffe9da268a</testCaseGuid>

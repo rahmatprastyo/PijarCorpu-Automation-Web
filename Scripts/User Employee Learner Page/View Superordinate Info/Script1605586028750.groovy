@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'Login User Employee'
-WebUI.callTestCase(findTestCase('Login/Positive Case/Make Sure User Employee Can Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Positive Case/Make Sure User Employee Learner Can Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'User Employee View  "Manager :"'
 WebUI.verifyElementText(findTestObject('Dashboard Employee/View Superordinate Info/p'), 'Manager :')

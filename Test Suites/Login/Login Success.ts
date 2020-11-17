@@ -19,7 +19,7 @@
       <guid>01786051-bae3-4192-96a7-ae4932aad0bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Positive Case/Make Sure User Employee Can Login</testCaseId>
+      <testCaseId>Test Cases/Login/Positive Case/Make Sure User Employee Learner Can Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1de38cd1-5fb6-43d1-9a53-bac7137232c8</guid>
